@@ -1,3 +1,10 @@
+.post-entry {
+  cursor: pointer;
+}
+.post-entry:hover {
+  box-shadow: 0px 8px 15px rgba(36,146,165,0.4) !important;
+  border-radius: 8px;
+}
 :root {
   --main-color: #323232;
   --bg-color: #f4f4f4;
