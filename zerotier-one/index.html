@@ -17,7 +17,7 @@
 
     
     
-        <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/moersou/PicX-image@master/favicon_theme_card.webp">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/favicon_theme_card.webp">
     
     
     
@@ -37,16 +37,16 @@
 
     <!-- OpenGraph -->
  
-    <meta name="description" content="如何基于 ZerotierOne 实现无公网 IP 异地远程连接前言在尝试过 sunlogin，teamviewer 和各类相似的远程服务时，我流下了非付费用户的泪，即使在购买了向日葵智能插座后，远程连接时的卡顿问题有所缓解，定时开关机功能也不错，一切看起来那么美好，直到我发现这个插座连不上学校只有 5G 频段的 WIFI，又不知为何连不上工作地的 WIFI，并且远程开机功能只适用于主机主板，如果">
+    <meta name="description" content="使用 RDP 和 Parsec 进行远程桌面访问">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何基于 ZerotierOne 实现无公网 IP 异地远程连接">
 <meta property="og:url" content="https://moersou.github.io/zerotier-one/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="如何基于 ZerotierOne 实现无公网 IP 异地远程连接前言在尝试过 sunlogin，teamviewer 和各类相似的远程服务时，我流下了非付费用户的泪，即使在购买了向日葵智能插座后，远程连接时的卡顿问题有所缓解，定时开关机功能也不错，一切看起来那么美好，直到我发现这个插座连不上学校只有 5G 频段的 WIFI，又不知为何连不上工作地的 WIFI，并且远程开机功能只适用于主机主板，如果">
+<meta property="og:description" content="使用 RDP 和 Parsec 进行远程桌面访问">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/pexels-pixabay-276502.jpg">
 <meta property="article:published_time" content="2022-08-28T07:05:32.000Z">
-<meta property="article:modified_time" content="2022-08-28T07:33:40.895Z">
+<meta property="article:modified_time" content="2022-08-31T09:09:55.662Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="内网穿透">
 <meta name="twitter:card" content="summary_large_image">
@@ -97,8 +97,6 @@
                 
                     <a href="/" class="navbar-menu button">Home</a>
                 
-                    <a href="/category/" class="navbar-menu button">Categories</a>
-                
                     <a href="/tag/" class="navbar-menu button">Tages</a>
                 
                     <a href="/archive/" class="navbar-menu button">Archives</a>
@@ -126,8 +124,6 @@
             <div class="dropdown-menus" id="dropdown-menus">
                 
                     <a href="/" class="dropdown-menu button">Home</a>
-                
-                    <a href="/category/" class="dropdown-menu button">Categories</a>
                 
                     <a href="/tag/" class="dropdown-menu button">Tages</a>
                 
@@ -172,9 +168,12 @@
     
 </div>
     <div class="post__content">
-        <h1 id="如何基于-ZerotierOne-实现无公网-IP-异地远程连接"><a href="#如何基于-ZerotierOne-实现无公网-IP-异地远程连接" class="headerlink" title="如何基于 ZerotierOne 实现无公网 IP 异地远程连接"></a>如何基于 ZerotierOne 实现无公网 IP 异地远程连接</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在尝试过 sunlogin，teamviewer 和各类相似的远程服务时，我流下了非付费用户的泪，即使在购买了向日葵智能插座后，远程连接时的卡顿问题有所缓解，定时开关机功能也不错，一切看起来那么美好，直到我发现这个插座连不上学校只有 5G 频段的 WIFI，又不知为何连不上工作地的 WIFI，并且远程开机功能只适用于主机主板，如果想让笔记本实现开机功能，需要重新设置 WOL 唤醒，但我的主板并不支持。这些都可以接受，但它们最大的问题出现在同一局域网下，流量依然经过服务器中转，不仅造成了隐私和数据安全问题，还加重了访问延迟。</p>
-<p>我写下这篇博客的目的不是为了抱怨上述的远程服务有什么问题。任何互联网服务在经历起步期低利润时期后势必要为成本让步，导致高价难用的问题。作为个人用户，我的目的是如何才能在户外以相对可靠且安全的方式来访问部署在家庭内部的服务。</p>
-<h2 id="用-Zerotier-进行内网穿透"><a href="#用-Zerotier-进行内网穿透" class="headerlink" title="用 Zerotier 进行内网穿透"></a>用 Zerotier 进行内网穿透</h2><p>在了解 Zerotier<a target="_blank" rel="noopener" href="https://docs.zerotier.com/">^1</a> 前，我们要清楚绝大部分家庭是没有分配公网 IP 的，无法实现对端连接, 公网 IP 是指在网关上配置端口转发，但在没有对外网访问进行限制的情况下，这种方法不安全：HTTP 协议明文传输、弱密码、单一鉴权都容易成为局域网的漏洞。同时，如果局域网内需要对外开放的服务较多，端口转发功能便显得力不从心。<a target="_blank" rel="noopener" href="https://sspai.com/prime/story/remote-lan-access-guide-01">^2</a></p>
+        <p>使用 RDP 和 Parsec 进行远程桌面访问</p>
+<span id="more"></span>
+
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在尝试过 sunlogin，teamviewer，todesk 和各类相似的远程服务时，我流下了非付费用户的泪，即使在购买了向日葵智能插座后，远程连接时的卡顿问题有所缓解，定时开关机功能也不错，一切看起来那么美好，直到我发现这个插座连不上学校只有 5G 频段的 WIFI，又不知为何连不上工作地的 WIFI，并且远程开机功能只适用于主机主板，如果想让笔记本实现开机功能，需要重新设置 WOL 唤醒，但我的主板并不支持。这些都可以接受，但它们最大的问题出现在同一局域网下，流量依然经过服务器中转，不仅造成了隐私和数据安全问题，还加重了访问延迟。</p>
+<p>我写下这篇博客的目的不是为了抱怨上述的远程服务有什么问题，向日葵目前在办公领域算是很优秀的老牌产品了。任何互联网服务在经历起步期低利润时期后势必要为成本让步，导致部分高价难用的问题。作为个人用户，我的目的是如何才能在户外以相对可靠且迅速的方式来访问部署在家庭内部的服务，从这一点上来看，仅仅用向日葵一款服务并不能满足多样的需求。</p>
+<h2 id="用-Zerotier-进行内网穿透"><a href="#用-Zerotier-进行内网穿透" class="headerlink" title="用 Zerotier 进行内网穿透"></a>用 Zerotier 进行内网穿透</h2><p>在了解 Zerotier<a target="_blank" rel="noopener" href="https://docs.zerotier.com/">^1</a> 前，我们要清楚绝大部分家庭是没有分配公网 IP 的，无法实现对端连接, 公网 IP 是指在网关上配置端口转发，但在没有对外网访问进行限制的情况下，这种方法不安全：HTTP 协议明文传输、弱密码、单一鉴权都容易成为局域网的漏洞。同时，如果局域网内需要对外开放的服务较多，端口转发功能便显得力不从心<a target="_blank" rel="noopener" href="https://sspai.com/prime/story/remote-lan-access-guide-01">^2</a>。</p>
 <p> 在没有公网 IP 的前提下，Zerotier 也许是一个不错的选择。Zerotier 属于开源加密的 VPN 服务，但并不是我们广义上熟知的 VPN，它所做的只是在你安装了它的设备之间提供一个虚拟网络供访问，你只需要在地址栏输入 Zerotier 为你的特定远程设备生成的特定 IP 地址，便可以实现远程访问。</p>
 <p> <strong>以 Windows 10 为例：</strong></p>
 <p> 打开 <a target="_blank" rel="noopener" href="https://my.zerotier.com/">Zerotier</a> 官网</p>
@@ -205,6 +204,27 @@
 <li>计算机 → 属性 → 高级系统设置 → 远程 → 远程桌面 → 允许运行任意版本远程桌面的计算机连接  <br></li>
 <li><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_32792909/article/details/118285824?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-118285824-blog-84101816.pc_relevant_multi_platform_whitelistv1_exp2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-118285824-blog-84101816.pc_relevant_multi_platform_whitelistv1_exp2&utm_relevant_index=1">账户问题</a><a target="_blank" rel="noopener" href="http://www.surfacetablethelp.com/2020/06/user-account-did-not-work-with-microsoft-remote-desktop-in-windows-10.html">^3</a></li>
 </ol>
+<p>在 1903 版本时，RDP 更新了 WDDM 这一个选项，相比于旧版的 XDDM ，WDDM 即使在注册表中打开了 60 FPS 的选项之后依然不够流畅，为了解决这个问题我们需要在组策略编辑器中做修改。另外，Win 11 中只能选择 WDDM。</p>
+<h2 id="也许-Parsec-在目前仅适合在局域网内做串流使用"><a href="#也许-Parsec-在目前仅适合在局域网内做串流使用" class="headerlink" title="也许 Parsec 在目前仅适合在局域网内做串流使用"></a>也许 Parsec 在目前仅适合在局域网内做串流使用</h2><p>当我以为向日葵搭配 RDP 使用就能解决远程剪辑的痛点的时候，懒癌发作。由于长时间在椅子上玩空洞骑士<a target="_blank" rel="noopener" href="https://hkss.huijiwiki.com/wiki/%E7%A9%BA%E6%B4%9E%E9%AA%91%E5%A3%AB_(%E6%B8%B8%E6%88%8F)">^4</a>让我很痛苦，在通关苦痛之路之后我决定躺平，为什么不能躺在床上玩呢？</p>
+<p><img src="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/parsecconnect.jpg" alt="parsec"></p>
+<p><a target="_blank" rel="noopener" href="https://parsec.app/">parsec</a> 是一款类似于 moonlight 的远程串流软件，和 steam 的远程畅玩相似，相比之下，parsec 有这样的优点：</p>
+<ul>
+<li>free</li>
+<li>支持手柄重定向</li>
+<li>支持多种分辨率</li>
+<li>支持 H.265</li>
+<li>内网下编解码延迟＋网络延迟稳定在 10 ms 内</li>
+<li>经测试同省异地相距百公里延迟在 30 ms 内</li>
+</ul>
+<p>这意味着在不需要烂橘子的情况下也能玩胡闹厨房，双人成行，晚上甚至可以用 iPad 或 Surface 藏在被窝里玩恐怖游戏，<del>当然 galgame 再适合不过了，我表示兴趣不大。</del></p>
+<p>实际测试下来 Parsec 在六代四核低压的 surface 上依然流畅运行，我觉着更低配置的古董本也完全可以跑通一些大作，在编解码速率普遍压缩在十毫秒的情况下，剩下的影响因素就只有应用内的各种设置和上下行带宽速率限制了。还需要提到的是，Parsec 目前不支持 iOS 端，所以 iPad 用户只能用 moonlight 了</p>
+<p>回到开头，为什么说 Parsec 目前仅适合在局域网内做串流使用，有两个原因，一是需要 设置 IPV6 线路或是进行穿透，二是 DNS 污染，被墙了，在不使用代理的情况下，电信和联通网络在目前偶尔可以直接成功登录，但移动用户几乎全军覆没。-800，-6023 频频出现，明明上午还没问题，下午就凉了。官方给出了各种错误代码的解决<a target="_blank" rel="noopener" href="https://support.parsec.app/hc/en-us/articles/115002601011">方案</a>，配合 Clash 使用，强制 Parsec 走代理，一般情况下足以解决大部分的 -6023 问题。B站 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV12F411A71W/?spm_id_from=333.788&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">LeeLee_Me</a> 将各种方案结合在一起，也许是目前在中文互联网上少有的优质答案了。</p>
+<p>同时，官方在 -6023 的最后一种解决方案中，给出了详细的 Zerotier 配合 Parsec 使用教程。</p>
+<h2 id="关联阅读"><a href="#关联阅读" class="headerlink" title="关联阅读"></a>关联阅读</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://post.smzdm.com/p/ax02o333/">如何用 parsec 软件搭建自己的云游戏平台（系列）</a>  </li>
+<li><a target="_blank" rel="noopener" href="https://www.v2ex.com/t/799285">Happyn + Parsec - 也许是最稳定的远程串流游戏方案</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Ai4y1D7Q5?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">最丝滑的远程桌面软件，没有之一（前提你能连上） - <em>视频</em></a></li>
+</ul>
 
     </div>
     
@@ -220,7 +240,7 @@
         </p>
         
             <strong>
-                <p>mail: <a href="mailto:&#x6d;&#111;&#x65;&#x72;&#115;&#111;&#x75;&#64;&#x64;&#x75;&#x63;&#107;&#x2e;&#x63;&#111;&#x6d;">&#x6d;&#111;&#x65;&#x72;&#115;&#111;&#x75;&#64;&#x64;&#x75;&#x63;&#107;&#x2e;&#x63;&#111;&#x6d;</a></p>
+                <p>mail: <a href="mailto:&#109;&#x6f;&#x65;&#114;&#115;&#111;&#117;&#x40;&#x64;&#x75;&#99;&#x6b;&#x2e;&#x63;&#x6f;&#x6d;">&#109;&#x6f;&#x65;&#114;&#115;&#111;&#117;&#x40;&#x64;&#x75;&#99;&#x6b;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 
             </strong>
         
@@ -231,7 +251,7 @@
         
     </div>
  
-    <div class="post-footer__meta"><p>updated at 2022-08-28</p></div> 
+    <div class="post-footer__meta"><p>updated at 2022-08-31</p></div> 
     <div class="post-entry__tags"><a href="/tag/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/" class="post-tags__link button"># 内网穿透</a></div> 
 </article>
 

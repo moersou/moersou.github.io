@@ -17,7 +17,7 @@
 
     
     
-        <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/moersou/PicX-image@master/favicon_theme_card.webp">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/favicon_theme_card.webp">
     
     
     
@@ -41,7 +41,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-03-24T05:27:04.000Z">
-<meta property="article:modified_time" content="2022-08-28T07:39:05.263Z">
+<meta property="article:modified_time" content="2022-08-30T10:36:16.836Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -90,8 +90,6 @@
                 
                     <a href="/" class="navbar-menu button">Home</a>
                 
-                    <a href="/category/" class="navbar-menu button">Categories</a>
-                
                     <a href="/tag/" class="navbar-menu button">Tages</a>
                 
                     <a href="/archive/" class="navbar-menu button">Archives</a>
@@ -119,8 +117,6 @@
             <div class="dropdown-menus" id="dropdown-menus">
                 
                     <a href="/" class="dropdown-menu button">Home</a>
-                
-                    <a href="/category/" class="dropdown-menu button">Categories</a>
                 
                     <a href="/tag/" class="dropdown-menu button">Tages</a>
                 
@@ -176,7 +172,7 @@
         </p>
         
             <strong>
-                <p>mail: <a href="mailto:&#109;&#x6f;&#101;&#114;&#115;&#x6f;&#x75;&#64;&#100;&#117;&#x63;&#x6b;&#46;&#x63;&#111;&#x6d;">&#109;&#x6f;&#101;&#114;&#115;&#x6f;&#x75;&#64;&#100;&#117;&#x63;&#x6b;&#46;&#x63;&#111;&#x6d;</a></p>
+                <p>mail: <a href="mailto:&#x6d;&#x6f;&#101;&#x72;&#115;&#111;&#x75;&#64;&#100;&#117;&#99;&#x6b;&#46;&#x63;&#x6f;&#109;">&#x6d;&#x6f;&#101;&#x72;&#115;&#111;&#x75;&#64;&#100;&#117;&#99;&#x6b;&#46;&#x63;&#x6f;&#109;</a></p>
 
             </strong>
         
@@ -187,32 +183,12 @@
         
     </div>
  
-    <div class="post-footer__meta"><p>updated at 2022-08-28</p></div> 
+    <div class="post-footer__meta"><p>updated at 2022-08-30</p></div> 
     <div class="post-entry__tags"></div> 
 </article>
 
 
 
-
-    <div class="post__comments content-card" id="comment">
-        
-    <h4>Comments</h4>
-    
-    
-    
-    <div id="valine_container" class="valine_thread"></div>
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-    </div>
 
 
 
@@ -482,62 +458,6 @@
 
  
 
-
-    
-
-    
-    
-    
-    <script>
-        function loadComment() {
-            let e;
-            (e = document.createElement("script")).src = 'https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js',
-            document.body.appendChild(e);
-            e.onload = () => {
-                var valineConfig = {"appId":"sPG5vWF8A8dMQBbuHS9jlJRE-gzGzoHsz","appKey":"zm2fIINzsYHbHHLrUUIoMkFT","placeholder":"Just to go","path":null,"avatar":null,"meta":["nick","mail","link"],"pageSize":null,"lang":null,"visitor":null,"highlight":null,"avatarForce":null,"recordIP":null,"serverURLs":null,"enableQQ":null,"requiredFields":["nick","mail"],"emojiCDN":null,"emojiMaps":null};
-                valineConfig.el = '#valine_container';
-                for (var i in valineConfig) {
-                    if (valineConfig[i] === null) delete valineConfig[i];
-                }
-                new Valine(valineConfig);
-            };
-        }
-    
-        var runningOnBrowser = typeof window !== "undefined";
-        var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
-        var supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
-    
-        setTimeout(function () {
-            if (!isBot && supportsIntersectionObserver) {
-                var comment_observer = new IntersectionObserver(function(entries) {
-                    if (entries[0].isIntersecting) {
-                        loadComment();
-                        comment_observer.disconnect();
-                    }
-                }, { threshold: [0] });
-                comment_observer.observe(document.getElementById('comment'));
-            } else {
-                loadComment();
-            }
-        }, 1);
-    </script>
-
-
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-    
 
 
 
