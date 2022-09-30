@@ -164,7 +164,7 @@
 <article class="post content-card">
     <div class="post__header">
     
-        <div class="post-thumbnail" style="background-image: url('https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/pexels-pixabay-276502.jpg');"></div>
+        <div class="post-thumbnail lazy" data-bg="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/pexels-pixabay-276502.jpg"></div>
     
 </div>
     <div class="post__content">
@@ -241,7 +241,7 @@
         </p>
         
             <strong>
-                <p>mail: <a href="mailto:&#x6d;&#111;&#101;&#x72;&#115;&#x6f;&#117;&#64;&#100;&#x75;&#x63;&#107;&#46;&#x63;&#x6f;&#x6d;">&#x6d;&#111;&#101;&#x72;&#115;&#x6f;&#117;&#64;&#100;&#x75;&#x63;&#107;&#46;&#x63;&#x6f;&#x6d;</a></p>
+                <p>mail: <a href="mailto:&#109;&#x6f;&#101;&#x72;&#x73;&#x6f;&#x75;&#x40;&#x64;&#x75;&#99;&#107;&#x2e;&#99;&#x6f;&#109;">&#109;&#x6f;&#101;&#x72;&#x73;&#x6f;&#x75;&#x40;&#x64;&#x75;&#99;&#107;&#x2e;&#99;&#x6f;&#109;</a></p>
 
             </strong>
         
@@ -320,7 +320,15 @@
 </footer>
 
         </div>
-         
+        
+    <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+    <script>
+        window.lazyLoadOptions = {
+            elements_selector: ".lazy",
+            threshold: 0
+        };
+    </script>
+ 
 
  
 
@@ -508,7 +516,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.js"></script>
 
     <script>
-        let lazyloadT = Boolean('false'),
+        let lazyloadT = Boolean('true'),
             auto_fancybox = Boolean('true')
         if (auto_fancybox) {
             $(".post__content").find('img').each(function () {
