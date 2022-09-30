@@ -10,8 +10,8 @@
     
     
     <url>
-        <loc>https://meursault.site/search/</loc>
-        <lastmod>2022-08-30T10:36:50.207Z</lastmod>
+        <loc>https://meursault.site/about/</loc>
+        <lastmod>2022-09-30T16:57:19.549Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -19,8 +19,8 @@
     
     
     <url>
-        <loc>https://meursault.site/about/</loc>
-        <lastmod>2022-08-30T10:36:16.836Z</lastmod>
+        <loc>https://meursault.site/search/</loc>
+        <lastmod>2022-08-30T10:36:50.207Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

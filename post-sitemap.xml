@@ -9,8 +9,24 @@
 
 
     <url>
+        <loc>https://meursault.site/sony-ei/</loc>
+        <lastmod>2022-09-30T16:58:08.665Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://meursault.site/browser-extensions/</loc>
+        <lastmod>2022-09-30T16:52:37.299Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://meursault.site/zerotier-one/</loc>
-        <lastmod>2022-08-31T09:45:43.203Z</lastmod>
+        <lastmod>2022-09-30T16:49:27.163Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
