@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /archive/
+Allow: /about/
+
+
+Disallow: /tag/
+Disallow: /search/
+
+Sitemap: https://meursault.site/sitemap.xml
