@@ -3,17 +3,17 @@
 
 
     <sitemap>
-        <loc>https://moersou-github-io.vercel.app/post-sitemap.xml</loc>
+        <loc>https://moersou-github-io/post-sitemap.xml</loc>
         <lastmod>2022-10-02T15:44:08.714Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://moersou-github-io.vercel.app/page-sitemap.xml</loc>
+        <loc>https://moersou-github-io/page-sitemap.xml</loc>
         <lastmod>2022-09-30T16:57:19.549Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://moersou-github-io.vercel.app/tag-sitemap.xml</loc>
+        <loc>https://moersou-github-io/tag-sitemap.xml</loc>
         <lastmod>2022-10-02T15:44:08.714Z</lastmod>
     </sitemap>
 

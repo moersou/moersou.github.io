@@ -2,14 +2,14 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://moersou-github-io.vercel.app/</loc>
+        <loc>https://moersou-github-io/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
 
     <url>
-        <loc>https://moersou-github-io.vercel.app/sony-ei/</loc>
+        <loc>https://moersou-github-io/sony-ei/</loc>
         <lastmod>2022-10-02T15:44:08.714Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -17,7 +17,7 @@
     </url>
 
     <url>
-        <loc>https://moersou-github-io.vercel.app/sony-ei/</loc>
+        <loc>https://moersou-github-io/sony-ei/</loc>
         <lastmod>2022-10-02T15:44:08.714Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -25,7 +25,7 @@
     </url>
 
     <url>
-        <loc>https://moersou-github-io.vercel.app/browser-extensions/</loc>
+        <loc>https://moersou-github-io/browser-extensions/</loc>
         <lastmod>2022-10-02T14:14:34.829Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -33,7 +33,7 @@
     </url>
 
     <url>
-        <loc>https://moersou-github-io.vercel.app/zerotier-one/</loc>
+        <loc>https://moersou-github-io/zerotier-one/</loc>
         <lastmod>2022-09-30T17:00:49.390Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
