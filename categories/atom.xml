@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://moersou.github.io/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Aug 2022 22:30:10 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://moersou.github.io/categories/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/categories/java/</link>
+      <link>https://moersou.github.io/categories/java/</link>
       <pubDate>Fri, 26 Aug 2022 22:30:10 +0800</pubDate>
-      <guid>http://localhost:1313/categories/java/</guid>
+      <guid>https://moersou.github.io/categories/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/categories/python/</link>
+      <link>https://moersou.github.io/categories/python/</link>
       <pubDate>Fri, 26 Aug 2022 22:29:10 +0800</pubDate>
-      <guid>http://localhost:1313/categories/python/</guid>
+      <guid>https://moersou.github.io/categories/python/</guid>
       <description></description>
     </item>
   </channel>
