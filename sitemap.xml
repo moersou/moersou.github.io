@@ -2,27 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-02-27T22:30:10+08:00</lastmod>
+    <loc>https://moersou.github.io/categories/ai/</loc>
+    <lastmod>2025-02-26T22:30:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://moersou.github.io/posts/ai%E6%B5%AA%E6%BD%AE%E4%B8%8B%E7%9A%84/</loc>
+    <lastmod>2025-02-26T22:30:10+08:00</lastmod>
+  </url><url>
+    <loc>https://moersou.github.io/categories/</loc>
+    <lastmod>2025-02-26T22:30:10+08:00</lastmod>
+  </url><url>
+    <loc>https://moersou.github.io/posts/</loc>
+    <lastmod>2025-02-26T22:30:10+08:00</lastmod>
+  </url><url>
+    <loc>https://moersou.github.io/categories/java/</loc>
     <lastmod>2022-08-26T22:30:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/java/</loc>
+    <loc>https://moersou.github.io/posts/test-cjk/</loc>
     <lastmod>2022-08-26T22:30:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/test-cjk/</loc>
-    <lastmod>2022-08-26T22:30:10+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/python/</loc>
+    <loc>https://moersou.github.io/categories/python/</loc>
     <lastmod>2022-08-26T22:29:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/test-highlight/</loc>
+    <loc>https://moersou.github.io/posts/test-highlight/</loc>
     <lastmod>2022-08-26T22:29:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://moersou.github.io/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://moersou.github.io/tags/</loc>
   </url>
 </urlset>
