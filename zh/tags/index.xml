@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 1plus</title>
+    <link>https://1plus.me/zh/tags/</link>
+    <description>Recent content in Tags on 1plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 05 Mar 2025 08:00:00 +0800</lastBuildDate>
+    <atom:link href="https://1plus.me/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Animal</title>
+      <link>https://1plus.me/zh/tag/animal/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/tag/animal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Film</title>
+      <link>https://1plus.me/zh/tag/film/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/tag/film/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Friendship</title>
+      <link>https://1plus.me/zh/tag/friendship/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/tag/friendship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>https://1plus.me/zh/tag/life/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/tag/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nature</title>
+      <link>https://1plus.me/zh/tag/nature/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/tag/nature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oscars</title>
+      <link>https://1plus.me/zh/tag/oscars/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/tag/oscars/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>https://1plus.me/zh/tag/review/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/tag/review/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
