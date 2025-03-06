@@ -113,4 +113,32 @@
     <priority>0.5</priority>
   </url>
   
+  <url>
+    <loc>https://1plus.me/zh/tag/ai/</loc>
+    <lastmod>2025-03-04T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/2025/03/04/ai-dilemma/</loc>
+    <lastmod>2025-03-04T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/tag/it/</loc>
+    <lastmod>2025-03-04T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/tag/labor/</loc>
+    <lastmod>2025-03-04T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
