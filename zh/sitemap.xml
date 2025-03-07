@@ -24,20 +24,90 @@
   
   <url>
     <loc>https://1plus.me/zh/</loc>
-    <lastmod>2025-03-05T08:00:00+08:00</lastmod>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://1plus.me/zh/tag/animal/</loc>
-    <lastmod>2025-03-05T08:00:00+08:00</lastmod>
+    <loc>https://1plus.me/zh/tag/ai/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/tag/capital/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://1plus.me/zh/categories/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/tag/consumer/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/tag/economics/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/category/ideas/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/tag/internet/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/tag/labor/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/posts/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/tags/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/2025/03/07/ai-dilemma/</loc>
+    <lastmod>2025-03-07T08:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://1plus.me/zh/tag/animal/</loc>
     <lastmod>2025-03-05T08:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,13 +122,6 @@
   
   <url>
     <loc>https://1plus.me/zh/tag/friendship/</loc>
-    <lastmod>2025-03-05T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1plus.me/zh/category/ideas/</loc>
     <lastmod>2025-03-05T08:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -86,21 +149,7 @@
   </url>
   
   <url>
-    <loc>https://1plus.me/zh/posts/</loc>
-    <lastmod>2025-03-05T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://1plus.me/zh/tag/review/</loc>
-    <lastmod>2025-03-05T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1plus.me/zh/tags/</loc>
     <lastmod>2025-03-05T08:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -109,34 +158,6 @@
   <url>
     <loc>https://1plus.me/zh/2025/03/05/dog-my-cats/</loc>
     <lastmod>2025-03-05T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1plus.me/zh/tag/ai/</loc>
-    <lastmod>2025-03-04T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1plus.me/zh/2025/03/04/ai-dilemma/</loc>
-    <lastmod>2025-03-04T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1plus.me/zh/tag/it/</loc>
-    <lastmod>2025-03-04T08:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://1plus.me/zh/tag/labor/</loc>
-    <lastmod>2025-03-04T08:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
