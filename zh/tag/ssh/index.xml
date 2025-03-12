@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSH on 1plus</title>
+    <link>https://1plus.me/zh/tag/ssh/</link>
+    <description>Recent content in SSH on 1plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 12 Mar 2025 08:00:00 +0800</lastBuildDate>
+    <atom:link href="https://1plus.me/zh/tag/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pull/push from multipile location</title>
+      <link>https://1plus.me/zh/2025/03/12/remote-repo-authentication/</link>
+      <pubDate>Wed, 12 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/2025/03/12/remote-repo-authentication/</guid>
+      <description>回留 前言 sample 有趣的事与物 输入 未来会利用起来 Telegram Channel，并将其作为内容源，借助 BroadcastChannel 搭建一个微博客 —— 「daily.1plus.me」，不定时</description>
+    </item>
+  </channel>
+</rss>
