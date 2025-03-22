@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="zh" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta name="generator" content="Hugo 0.123.5" />
+  <meta charset="utf-8">
+  <title>一次远程仓库提交报错 · 1plus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<script data-goatcounter="https://stats.pseudoyu.com/count" async src="//stats.pseudoyu.com/count.js"></script>
+  <meta name="description" content="回留 最近计划用另一台 Surface 管理此网站的内容更新，在使用 Git 提交代码 git push 时，多次出现了以下错误信息。 fatal: unable to access &amp;#39;https://github.com/username/username.github.io.git/&amp;#39;: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0 根据提示判断可能是本地 SSL 证书" />
+
+  <meta name="keywords" content="hugo, blockchain, programming" />
+
+<link rel="canonical" href="https://1plus.me/zh/2025/03/12/remote-repo-authentication/" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://1plus.me/css/den.css">
+
+<link rel="stylesheet" href="https://1plus.me/css/custom.css">
+
+
+
+
+<meta property="og:title" content="一次远程仓库提交报错" />
+<meta property="og:description" content="回留 最近计划用另一台 Surface 管理此网站的内容更新，在使用 Git 提交代码 git push 时，多次出现了以下错误信息。 fatal: unable to access &#39;https://github.com/username/username.github.io.git/&#39;: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0 根据提示判断可能是本地 SSL 证书" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://1plus.me/zh/2025/03/12/remote-repo-authentication/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-03-12T08:00:00+08:00" />
+<meta property="article:modified_time" content="2025-03-12T08:00:00+08:00" />
+
+</head>
+<body>
+  
+  <div class="header-container" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://1plus.me/images/ojbk.jpeg'); background-position: center; background-size: cover;">
+  <div class="container">
+  <nav class="header-nav navbar navbar-expand-md navbar-dark light-dark">
+    <div class="header-logo navbar-brand">
+      
+        <a class="float-left" href="https://1plus.me/zh/">
+      
+        
+        <img class="mr20 header-logo-image" src="https://1plus.me/images/icon-cat.png" alt="logo">
+        
+        
+          1plus
+         
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav-menu collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://1plus.me/zh/category/essays/">随笔</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://1plus.me/zh/category/ideas/">思考</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://1plus.me/zh/category/tools/">工具</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              <a class="nav-link" href="https://1plus.me/zh/links/">友链</a>
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              <a class="nav-link" href="https://1plus.me/zh/about/">关于</a>
+            
+          </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="container header-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="header-content">
+        <h1 class="header-title">一次远程仓库提交报错</h1>
+        <p class="header-date">author: 
+          YJ
+          | <span> 516 words, 2 mins</span>
+        
+        | <span class="remark42__counter" data-url="https://1plus.me/zh/2025/03/12/remote-repo-authentication/"></span> comments
+        | 2025-03-12
+          | 分类: 
+          <a href="https://1plus.me/zh/category/tools/">Tools</a>
+        </p>
+        
+        <div class="header-underline"></div>
+        
+          <div class="clearfix"></div>
+          <p class="float-right header-tags">
+              <i class="fas fa-tags" aria-hidden="true"></i>
+              <a href="https://1plus.me/zh/tag/authentication/">authentication</a>,
+                <a href="https://1plus.me/zh/tag/git/">git</a>,
+                <a href="https://1plus.me/zh/tag/github/">github</a>,
+                <a href="https://1plus.me/zh/tag/pat/">PAT</a>,
+                <a href="https://1plus.me/zh/tag/ssh/">SSH</a>
+          </p>
+        
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <main>
+<div class="container content">
+  <articl data-pagefind-body>
+  <figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/%e5%9b%9e%e7%95%99.flac" type="audio/mpeg">
+    </audio>
+    <i><figcaption>回留</figcaption></i>
+</figure>
+<h2 id="heading"></h2>
+<p>最近计划用另一台 Surface 管理此网站的内容更新，在使用 Git 提交代码 <code>git push</code> 时，多次出现了以下错误信息。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">fatal: unable to access <span class="s1">&#39;https://github.com/username/username.github.io.git/&#39;</span>: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno <span class="m">0</span> 
+</span></span></code></pre></div><p>根据提示判断可能是本地 SSL 证书过期或损坏，导致 Github 服务器不能正确验证 Git 身份。不久之前此台电脑在上传代码时新配置了 SSH Key，检查证书后发现没有问题。<del>其实将 Git 远程仓库 URL 切换为 SSH 可能就不会报错了。</del></p>
+<p>直觉判断是网络问题。又经过了多次 <code>push</code> 后，终于提示需要登录信息。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ git commit -m <span class="s2">&#34;~&#34;</span>
+</span></span><span class="line"><span class="cl">Author identity unknown
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">*** Please tell me who you are.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Run
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  git config --global user.email <span class="s2">&#34;you@example.com&#34;</span>
+</span></span><span class="line"><span class="cl">  git config --global user.name <span class="s2">&#34;Your Name&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">to <span class="nb">set</span> your account<span class="err">&#39;</span>s default identity.
+</span></span><span class="line"><span class="cl">Omit --global to <span class="nb">set</span> the identity only in this repository.
+</span></span></code></pre></div><blockquote>
+<p><strong>Github 对密码身份验证的支持已于2021年8月13日删除。请改用Personal Access Token</strong>。</p>
+</blockquote>
+<blockquote>
+<p>When you <code>git clone</code>, <code>git fetch</code>, <code>git pull</code>, or <code>git push</code> to a private remote repository using HTTPS URLs on the command line, Git will ask for your GitHub username and password. When Git prompts you for your password, enter your personal access token. Alternatively, you can use a credential helper like <a href="https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md">Git Credential Manager</a>. Password-based authentication for Git has been removed in favor of more secure authentication methods. For more information, see <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">Managing your personal access tokens</a>.</p>
+</blockquote>
+<hr>
+<h3 id="使用-personal-access-tokenpat">使用 Personal Access Token（PAT）</h3>
+<p>首先，检查当前 Git 仓库的远程地址 <code>git remote -v</code>，返回得到 HTTP URL，需要使用 Personal Access Token（PAT） 进行身份认证，而不是 GitHub 密码。</p>
+<ul>
+<li>
+<p>获取 GitHub Token</p>
+</li>
+<li>
+<p>更新 Git 远程 URL</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote set-url origin https://your-token@github.com/your-username/repository.git
+</span></span></code></pre></div><h3 id="使用-ssh-认证">使用 SSH 认证</h3>
+<p>生成 SSH Key，通常存储在 <code>~/.ssh/id_rsa.pub</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t rsa -b <span class="m">4096</span> -C <span class="s2">&#34;your-email@example.com&#34;</span>
+</span></span></code></pre></div><p>复制公钥并添加到 GitHub：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat ~/.ssh/id_rsa.pub
+</span></span></code></pre></div><p>重新测试 SSH 连接：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></div><p>将 Git 远程仓库 URL 切换为 SSH（如果当前是 HTTPS）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote set-url origin git@github.com:your-username/repository.git
+</span></span></code></pre></div>
+  </articl>
+
+  
+  
+  
+    <h2>相关文章</h2>
+    <dl class="row">
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+
+  
+
+  
+  
+    
+    <div class="author-card">
+    <div class="underline"></div>
+    <div class="author-box">
+      <div class="author-image"><a href="/zh"><img src="/images/ZSM-1.jpg" alt="YJ" /></a></div>
+      <div class="author-content">
+      <p class="author-title">author</p>
+      <p class="author-name">YJ</p>
+      <p class="author-desc">🐢就让铁锅炖王八 - 🐈猫语八级 - 👌已读不回 - 🤖AI患者 - 🛏️睡眠大师 - 🍔麦门信徒 - ✨非典型INTJ —「在我的 <a href="https://www.xiaohongshu.com/user/profile/606e7b3e000000000101e3df">RED</a> 了解更多」</p>
+      </div>
+    </div>
+  </div>
+    
+  
+  
+  <div align="center">
+    <div class="comment-underline"></div>
+</div>
+
+<br>
+
+<div class="comments">
+  <div class="title">
+    <span>Comments</span>
+    <span class="counter"><span class="remark42__counter" data-url="https://1plus.me/zh/2025/03/12/remote-repo-authentication/"></span></span>
+  </div>
+  <div id="remark42">
+  </div>
+</div>
+
+<script>
+  var remark_config = {
+    host: 'https://comments.pseudoyu.com',
+    site_id: 'pseudoyu.com',
+    components: ['embed', 'counter'],
+    max_shown_comments: 20,
+    simple_view: true,
+    theme: 'light',
+  }
+</script>
+
+<script>
+    (function () {
+      
+      const remark42 = window.REMARK42
+      if (remark42) {
+        remark42.destroy()
+        remark42.createInstance(remark_config)
+      } else {
+        for (const component of remark_config.components) {
+          var d = document, s = d.createElement('script');
+          s.src = `${remark_config.host}/web/${component}.mjs`;
+          s.type = 'module';
+          s.defer = true;
+          
+          s.setAttribute('data-no-instant', '')
+          d.head.appendChild(s);
+        }
+      }
+    })();
+</script>
+</div>
+
+  </main><div class="footer gradient-2">
+  <div class="container footer-container ">
+    <div class="row">
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        <div class="footer-title">sitemap</div>
+        <ul class="list-unstyled">
+            
+              
+                <li><a href="https://1plus.me/zh/tags/">标签</a></li>
+              
+              
+                <li><a href="https://1plus.me/zh/categories/">分类</a></li>
+              
+            
+            
+            
+            <li><a rel="alternate" type="application/rss&#43;xml" href="https://1plus.me/zh/index.xml"><i class="fas fa-rss-square"></i> RSS</a></li>
+            
+            
+            
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+        <div class="footer-title">社交</div>
+        <ul class="list-unstyled">
+          
+          <li><a href="https://t.me/moersou" rel="noopener" target="_blank">Telegram</a></li>
+          
+          <li><a href="https://www.instagram.com/oplus114/" rel="noopener" target="_blank">Instagram</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <p class="pull-right text-right">
+         
+         
+         
+          <small>
+            &copy;
+            逸嘉
+            2025
+          </small>
+          
+        </p>
+      </div>
+
+      
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" id="scroll-top" class="scroll-top" accesskey="g">
+    <span class="arrow-icon"></span>
+</a>
+<script>
+    var mybutton = document.getElementById("scroll-top");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+</script>
+
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

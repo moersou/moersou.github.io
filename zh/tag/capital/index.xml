@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capital on 1plus</title>
+    <link>https://1plus.me/zh/tag/capital/</link>
+    <description>Recent content in Capital on 1plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 07 Mar 2025 08:00:00 +0800</lastBuildDate>
+    <atom:link href="https://1plus.me/zh/tag/capital/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>听说你也染上 AI 了</title>
+      <link>https://1plus.me/zh/2025/03/07/ai-dilemma/</link>
+      <pubDate>Fri, 07 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/2025/03/07/ai-dilemma/</guid>
+      <description>回留 前言 本篇是对近期高强度使用 AI 后的记录和思考。 今年春节到现在，GPT 和不太稳定的 DeepSeek 成了我的浏览器常驻网页。LLMs 与小红书、谷歌的交叉应用</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>1plus</title>
+    <link>https://1plus.me/zh/</link>
+    <description>Recent content on 1plus</description>
+    <follow_challenge>
+      <feedId>41215011978385440</feedId>
+      <userId>41229460898486272</userId>
+    </follow_challenge>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 22 Mar 2025 08:03:00 +0800</lastBuildDate>
+    
+    <atom:link href="https://1plus.me/zh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>周报 #01 - 失去的表达欲</title>
+      <link>https://1plus.me/zh/2025/03/22/weekly_review_01_250309/</link>
+      <pubDate>Sat, 22 Mar 2025 08:01:00 +0800</pubDate>
+      
+      <guid>https://1plus.me/zh/2025/03/22/weekly_review_01_250309/</guid>
+      <description>回留 因为自己感受到的世界因日增的思考体悟而不断移步易景，所以表达欲渐渐丧失，总觉得自己能讲述的太浅薄，有些结论太武断。 此外，如果写博客，就难</description>
+      <content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/%e5%9b%9e%e7%95%99.flac" type="audio/mpeg">
+    </audio>
+    <i><figcaption>回留</figcaption></i>
+</figure>
+<h2 id="heading"></h2>
+<p>因为自己感受到的世界因日增的思考体悟而不断移步易景，所以表达欲渐渐丧失，总觉得自己能讲述的太浅薄，有些结论太武断。</p>
+<p>此外，如果写博客，就难免会有想象中的读者。如同日常在家中横躺竖卧，偶尔也可能邋里邋遢，但客人到访难免收拾一番，展示美好景象。一旦开始公开表达，就难免会矫饰，我喜欢歇斯底里，但是不喜欢自己可能会透露出的虚荣或自负。（就在此刻，我的自负在于标榜自己是个不爱标榜自己和不自负的人。）（就在上一刻，我的自负在于自己虽然自负，但标榜自己并不以自负为荣。）</p>
+<h2 id="heading-1"></h2>
+<p>为什么要写周报？让时间过得慢一些，再慢一些。</p>
+<p>高中时期的班主任有一天心血来潮，为了了解我们的心理状态，强制全班同学写日记。我还记着所有人都拿着浅红色的胶印大本子按时写按时上交，老师要看的。大约写了没多久这件事就被搁置了，从结果来看，比起班主任常看的当代情感散文杂志，看我们写的虚伪日记，她要变成伪人了，这何尝不是一种摧残。</p>
+<p>长大之后越发觉着用文字记录自己平凡的生活点滴是一件羞耻的事，「write in public」对于我这样的完美主义者来说想都不敢想，怀着“踏上取经路，比抵达灵山更重要”的想法，我决定宁愿痛苦，也要出发。</p>
+<p>写博客这个行为本身的 ROI 在短期是极低的，或许每个人都要经历持续多年的无人问津。与其羡慕 Substack 这样的内容订阅制付费平台，我还没有能力或者应当安慰自己说那不是我想做的事。</p>
+<p>时间不会随自我意志而改变流逝的速度，而当无数个日与夜的记忆被记录，下次再翻手机相册清理照片时，就不要再对着曾经的三月叹息为什么每一次遇见与离别都是眨眼间了。</p>
+<!---
+
+##
+
+挂云山是从班主任那里得知的，我记着她在上课的时候轻描淡写的说了一句「我上周去爬挂云山了」，没有下一句了。
+
+生活充满了尝试与失败的无限循环，大曼曾经说过：「人生就是白干加白干」。
+
+第一次尝试登顶是在三年前，和朋友四五个人在山脚下被护林防火拒绝了，第二次被路太窄劝退了，第三次被路人的一句话吓到了，直到第四次才一个人偷摸沿着小路上了山。
+
+冬天的挂云山像是“黄风岭”，到顶才知道我又在胡说八道了，山的东侧是一望无际的华北平原，西侧则是连绵起伏的太行山群峰，山顶上有三皇五帝庙、连心桥、烈士纪念亭。
+
+下山后时间还早，决定回老家睡会儿觉，结果一分钟也没睡，倒是吃了两大海碗炸酱面。完全不记着上次自己一个人回老家是什么时候了，就把这次当做第一次吧。
+
+## 有趣的事与物
+
+### 输入
+
+未来会利用起来 **Telegram Channel**，并将其作为内容源，借助 [BroadcastChannel](https://github.com/ccbikai/BroadcastChannel?tab=readme-ov-file) 搭建一个微博客 —— 「[daily.1plus.me](https://daily.1plus.me/)」，不定时的分享一些有意思的内容。
+
+#### 文章
+
+- [我所见过的梁文锋](https://mp.weixin.qq.com/s/tv_eN8-bxH_PkqCFu3P-7g)
+
+- [在深圳做「AI 耳机」这一年，我看到的 10 个行业真相](https://mp.weixin.qq.com/s/D1NisnNnR5FtRVT6dtwKRw)
+
+- [东方破晓：2024，中国 AI 的跃迁之年｜赛博月刊 202412](https://mp.weixin.qq.com/s/IwlZpKZtEgTDcJxvrSSa5g)
+
+#### 视频
+
+- [女孩子哭了该怎么哄【自驾游美西VLOG 16】](https://www.bilibili.com/video/BV16Z9RYcEMr/?spm_id_from=333.1007.0.0&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d)
+
+- [雪？重庆人玩得明白吗？仙女山露营【BB Time第463期】](https://www.bilibili.com/video/BV1nwffYXE4H/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d)
+
+- [分享下我的歌单，顺便聊聊音乐](https://www.bilibili.com/video/BV1mr9CYGEn8/?spm_id_from=333.337.search-card.all.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d)
+
+- [转码？你可省省吧...](https://www.bilibili.com/video/BV1j798YHETF/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d)
+
+- [职场3P法则](https://www.bilibili.com/video/BV1Yd9AY6EqC/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d)
+
+#### 剧集
+
+- 哪里来的时间看剧，[朋友](https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/chiikawa-1.jpg)
+
+
+-->]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>cursor 是劳保用品</title>
+      <link>https://1plus.me/zh/2025/03/21/ai-helps/</link>
+      <pubDate>Fri, 21 Mar 2025 13:00:00 +0800</pubDate>
+      
+      <guid>https://1plus.me/zh/2025/03/21/ai-helps/</guid>
+      <description>回留 最近感觉 AI 编程最大的好处不是提高效率或者质量，而是减少了编程的心智负担。 用 AI 完整、严谨地实现一个功能，所用的时间不一定就比自己写要少，从</description>
+      <content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/%e5%9b%9e%e7%95%99.flac" type="audio/mpeg">
+    </audio>
+    <i><figcaption>回留</figcaption></i>
+</figure>
+<blockquote>
+<p>最近感觉 AI 编程最大的好处不是提高效率或者质量，而是减少了编程的心智负担。</p>
+</blockquote>
+<p>用 AI 完整、严谨地实现一个功能，所用的时间不一定就比自己写要少，从 0 到 1 做 PoC 虽然很快，之后仍需要大量的细节优化和重构。但 AI 编程之后，还是会觉得比自己写要爽，为什么？</p>
+<p>编程的过程中，最痛苦的事情是视角的切换，宏观上需要关注功能设计、代码结构、风格和范式等等，微观上要应对方寸之间的每一个字符，死磕每一个随时出现的 bug。一个优秀的开发者懂得在宏观和微观之间来回切换，合理分配时间，为了保证进度，甚至要为每一次视角切换计算时间，若耽误太久则要强制中断。而这两种视角对应人脑不同区域的工作，切换后大脑需要改变思维方式、清理缓存、恢复上下文，这些事情才是编程劳心之苦的最主要来源。</p>
+<p>单独在一个视角上沉浸式工作，反而不会觉得很累，比如与一个 bug 战斗整夜，解决之后虽然身体疲劳，但大脑是亢奋的。而一个技术负责人在带着团队赶死线时，时而审视进度、核对需求，时而 review 代码、解决技术难题，很快就会感到心力憔悴不堪重负。</p>
+<p>AI 编程可以让开发者大部分时间一直处于宏观视角中，将需求转换为提示词，把微观细节都交给 AI 实现。即便是做重构，也只需要大致扫一下接口名称、调用关系，就可以把改进思路告知 AI 来完成。进而更快进入心流，并能长时间保持而不中断。</p>
+<p>使用 AI 编程，降低心智负担，把开发这项事业的生命周期延长另一个十年。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Advice for a friend who wants to start a blog</title>
+      <link>https://1plus.me/zh/2025/03/14/start-a-blog/</link>
+      <pubDate>Fri, 14 Mar 2025 13:00:00 +0800</pubDate>
+      
+      <guid>https://1plus.me/zh/2025/03/14/start-a-blog/</guid>
+      <description>回留 It is what is odd about you that is interesting. If you work hard, you will be able to write like everyone else in your genre, but the result will never be rich as the texture of your own personality. So, don’t think too much about how you are supposed to write, how others do it, or what the conventions demand. Just try to</description>
+      <content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/%e5%9b%9e%e7%95%99.flac" type="audio/mpeg">
+    </audio>
+    <i><figcaption>回留</figcaption></i>
+</figure>
+<ol>
+<li>
+<p>It is what is odd about you that is interesting. If you work hard, you will be able to write like everyone else in your genre, but the result will never be rich as the texture of your own personality. So, don’t think too much about how you are supposed to write, how others do it, or what the conventions demand. Just try to amuse yourself.</p>
+</li>
+<li>
+<p>Your contradictions are an asset. You’re a lover of classical English architecture and you’re also a dirty little punk—expressing both at the same time is more interesting than sharing just cute pictures of English gardens or just wild trashy stuff. The more you incorporate everything that you love and that comes easily for you (your interests, your sense of humor, your grammatical tics, etc), the more your style emerges.</p>
+</li>
+<li>
+<p>A classic pattern: you try hard to write like someone else, but then you mess up and write in some stupid other way—and that ends up being what people relate to. I wish I had messed up sooner.</p>
+</li>
+<li>
+<p>People tend to sound more like themselves in chat messages than in blog posts. So perhaps write in the chat, rapidly, to a friend.</p>
+</li>
+<li>
+<p>Not that many people will care about what you write, at least for the first few years, so make the writing useful to you. Write in a way that lets you refine your thoughts about the things that matter. Write to experience what you care about in higher resolution—write to enhance your feeling of aliveness.</p>
+</li>
+<li>
+<p>One reason chat messages are unusually lively is that the format encourages you to write from emotion. You are talking to someone you like and you want to resonate with them, you want to make them laugh. This creates a surge in the writing. It is lovely. When you write from your head, your style sinks back under the waves.</p>
+</li>
+<li>
+<p>This, however, is not an excuse to be lazy in your thinking. You have to put your thoughts in order. But the time to do this is before you write for publication. Think: musicians practicing hard so they can be in the moment when they improvise. Read, take notes, study, question yourself. But then, when writing a post, let that go, and rely on the brain power you have accumulated. A good essay is an interesting mind wrestling with a problem in somewhat real-time. (I should add, for context, that my friend and I are talking about writing beautiful essays here. If you want to write the most precise thing possible, you need to edit mercilessly and accept that the writing ends up flat and disjointed.)</p>
+</li>
+<li>
+<p>Don’t aim too high when you write your first posts. Maybe just do 500-word pieces, and do them with a simple format.</p>
+</li>
+<li>
+<p>A simple format: “Here is a problem I had and here’s how I solved it.” (Or, “I haven’t solved it yet but these are some reflections.”) Having a problem to solve (or a question that demands an answer) makes the text live and move. Otherwise, it is just a clump of words, and it is unclear why I should read on.</p>
+</li>
+<li>
+<p>Another simple format is a list, like this essay.</p>
+</li>
+<li>
+<p>Write a hundred pieces. Each time take one thing and make it better: a better title, better structure, better ending, better descriptions, better dialogue. Just one thing. It adds up.</p>
+</li>
+<li>
+<p>To grow skilled, you need to push yourself outside your comfort zone and put your goals a little beyond what you can pull off. But also? You need to finish and publish stuff because there are certain things you can only learn by finishing. Deadlines are the tool I use to balance this tradeoff. I tell myself, “I’m going to write the best piece I can in 20 hours” and then I adjust how high I aim and how hard I judge myself so I can finish in 20 hours. If I want to push myself to go deeper, I give myself 30 hours instead. If I want to get more reps, I give myself 10 hours. And so on. (This excludes most of the research work, which I do separately from writing essays.)</p>
+</li>
+<li>
+<p>Look at Kafka’s diary. Look at what he did when he felt one of his drafts sucked. He didn’t rewrite the sentences, moving commas and phrases around—he flipped a page and wrote a new draft from scratch. This is a way to learn from your attempts without sacrificing the life that comes from writing fast. Kafka could give himself the same prompt four or five times and run off in new directions each time.</p>
+</li>
+<li>
+<p>You should, of course, edit once you have a good draft—find sharper words, make it tighter, and ensure you are saying what you mean. But don’t edit too much.</p>
+</li>
+<li>
+<p>A good question to ask yourself when you edit: what is the weakest 20 percent of this draft? Cut it.</p>
+</li>
+<li>
+<p>What if you want to write 5000 words about the history of French grammar but fear people will get bored by that? What should you do? You should write 5000 words about the history of French grammar. It will filter your readers so you attract those who appreciate the grooves of your mind.</p>
+</li>
+<li>
+<p>Writing a blog is not like writing for a publication. There is no preexisting audience you have to please. The audience is created as a reflection of your curiosity. A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox.</p>
+</li>
+<li>
+<p>In real life, you can&rsquo;t go on and on about your obsessions; you have to tame yourself to not ruin the day for others. This is a good thing. Otherwise, we’d be ripping each other&rsquo;s arms off like chimpanzees. But a blog is a tiny internet house where you decide the norms. And since there are already countless places where you can&rsquo;t be yourself, there is no need to build another one of those. The law of the land is that everything you think is funny is funny. Those who find the texture of your mind boring or offensive can close the tab—no need to worry about them. It is good for the soul to have a place where being just the way you are is normal. And it is a service to others, too. You&rsquo;ll be surprised how many people are laughably similar to you and who wish there was a place where they felt normal. You can build that.</p>
+</li>
+<li>
+<p>Being able to spin up a room of your own with a few clicks is one of the great advantages we have over previous generations. Make use of it.</p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>一次远程仓库提交报错</title>
+      <link>https://1plus.me/zh/2025/03/12/remote-repo-authentication/</link>
+      <pubDate>Wed, 12 Mar 2025 08:00:00 +0800</pubDate>
+      
+      <guid>https://1plus.me/zh/2025/03/12/remote-repo-authentication/</guid>
+      <description>回留 最近计划用另一台 Surface 管理此网站的内容更新，在使用 Git 提交代码 git push 时，多次出现了以下错误信息。 fatal: unable to access &amp;#39;https://github.com/username/username.github.io.git/&amp;#39;: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0 根据提示判断可能是本地 SSL 证书</description>
+      <content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/%e5%9b%9e%e7%95%99.flac" type="audio/mpeg">
+    </audio>
+    <i><figcaption>回留</figcaption></i>
+</figure>
+<h2 id="heading"></h2>
+<p>最近计划用另一台 Surface 管理此网站的内容更新，在使用 Git 提交代码 <code>git push</code> 时，多次出现了以下错误信息。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">fatal: unable to access <span class="s1">&#39;https://github.com/username/username.github.io.git/&#39;</span>: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno <span class="m">0</span> 
+</span></span></code></pre></div><p>根据提示判断可能是本地 SSL 证书过期或损坏，导致 Github 服务器不能正确验证 Git 身份。不久之前此台电脑在上传代码时新配置了 SSH Key，检查证书后发现没有问题。<del>其实将 Git 远程仓库 URL 切换为 SSH 可能就不会报错了。</del></p>
+<p>直觉判断是网络问题。又经过了多次 <code>push</code> 后，终于提示需要登录信息。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ git commit -m <span class="s2">&#34;~&#34;</span>
+</span></span><span class="line"><span class="cl">Author identity unknown
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">*** Please tell me who you are.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Run
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  git config --global user.email <span class="s2">&#34;you@example.com&#34;</span>
+</span></span><span class="line"><span class="cl">  git config --global user.name <span class="s2">&#34;Your Name&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">to <span class="nb">set</span> your account<span class="err">&#39;</span>s default identity.
+</span></span><span class="line"><span class="cl">Omit --global to <span class="nb">set</span> the identity only in this repository.
+</span></span></code></pre></div><blockquote>
+<p><strong>Github 对密码身份验证的支持已于2021年8月13日删除。请改用Personal Access Token</strong>。</p>
+</blockquote>
+<blockquote>
+<p>When you <code>git clone</code>, <code>git fetch</code>, <code>git pull</code>, or <code>git push</code> to a private remote repository using HTTPS URLs on the command line, Git will ask for your GitHub username and password. When Git prompts you for your password, enter your personal access token. Alternatively, you can use a credential helper like <a href="https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md">Git Credential Manager</a>. Password-based authentication for Git has been removed in favor of more secure authentication methods. For more information, see <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">Managing your personal access tokens</a>.</p>
+</blockquote>
+<hr>
+<h3 id="使用-personal-access-tokenpat">使用 Personal Access Token（PAT）</h3>
+<p>首先，检查当前 Git 仓库的远程地址 <code>git remote -v</code>，返回得到 HTTP URL，需要使用 Personal Access Token（PAT） 进行身份认证，而不是 GitHub 密码。</p>
+<ul>
+<li>
+<p>获取 GitHub Token</p>
+</li>
+<li>
+<p>更新 Git 远程 URL</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote set-url origin https://your-token@github.com/your-username/repository.git
+</span></span></code></pre></div><h3 id="使用-ssh-认证">使用 SSH 认证</h3>
+<p>生成 SSH Key，通常存储在 <code>~/.ssh/id_rsa.pub</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t rsa -b <span class="m">4096</span> -C <span class="s2">&#34;your-email@example.com&#34;</span>
+</span></span></code></pre></div><p>复制公钥并添加到 GitHub：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat ~/.ssh/id_rsa.pub
+</span></span></code></pre></div><p>重新测试 SSH 连接：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></div><p>将 Git 远程仓库 URL 切换为 SSH（如果当前是 HTTPS）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote set-url origin git@github.com:your-username/repository.git
+</span></span></code></pre></div>]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>不妨理直气壮的去责任化</title>
+      <link>https://1plus.me/zh/2025/03/11/shift-from-responsibility/</link>
+      <pubDate>Tue, 11 Mar 2025 08:00:00 +0800</pubDate>
+      
+      <guid>https://1plus.me/zh/2025/03/11/shift-from-responsibility/</guid>
+      <description>回留 离开的，留下的 「去责任化」的出现，不是某个单一事件所导致新名词，而是时代变迁、社会结构调整和文化观念演变共同作用的产物。 要理解这个词，既</description>
+      <content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/%e5%9b%9e%e7%95%99.flac" type="audio/mpeg">
+    </audio>
+    <i><figcaption>回留</figcaption></i>
+</figure>
+<h2 id="离开的留下的">离开的，留下的</h2>
+<p>「去责任化」的出现，不是某个单一事件所导致新名词，而是时代变迁、社会结构调整和文化观念演变共同作用的产物。</p>
+<p>要理解这个词，既需要看到它作为一种被动产生的情绪结果，也需要探讨它如何逐渐转化为青年一代对于不安的主动应对策略。这种双重属性并非截然分开，而是交织在一起，反映了我们与现实之间的复杂互动。</p>
+<p>从现象看，去责任化的出现离不开外部环境的推力。过去的十几年，经济增长带来了相对稳定的线性预期：努力工作就能换来房子、家庭和未来的保障。然而，随着资本化和资源分配带来的剧变，这种叙事走到尾声，迎来了拐点。就业市场的不稳定性、房价的上涨、生活成本的攀升，让传统责任的实现变得遥不可及。无论如何努力，这些曾经被视为人生标配的目标，似乎超出了一代人的能力范围。</p>
+<p>与此同时，互联网加速了信息的流动，却也让注意力被碎片化，生活的节奏被压缩，留给深度思考和长远规划的空间越来越少。这种外部条件的恶化，逼着人们在原本在被动且不得不的矛盾下学会了主动的放下一些责任，因为努力的回报不再确定，传统的 “负责” 路径失去了现实基础。</p>
+<p>这种现象还伴随着一种叙事空洞。过去，社会提供了清晰的剧本：你要为家庭负责，为社区出力，按部就班完成人生阶段。如今，选择多了，剧本却没了。</p>
+<p>媒介时代催生的个体化趋势让人们从固定的社会角色中脱离出来，获得了更多自由，但自由的另一面是迷茫和责任的模糊化。年轻人面对的是一种开放式人生，却缺少明确的坐标。上一代人眼中的 “社会中流砥柱” —— 按时上下班、认真工作、赡养父母、遵纪守法纳税——在今天被戏称为 “躺平”，标签的畸形化本身就反映了叙事断裂的后果。</p>
+<p>年轻人不是不愿意负责，而是发现传统的责任模式不再适用，他们被推入了一种「去责任化」的状态，带着困惑和无力感。</p>
+<h2 id="从负面标签到主动认可">从负面标签到主动认可</h2>
+<p>然而，去责任化并不仅仅是外部环境逼迫的结果。随着时间的推移，它开始从被动结果演变为应对方案。我们逐渐意识到，单纯的逃避或抗拒无法解决问题，我们更需要在这种新常态下找到生存方式。这种转变是潜移默化的，既是被环境塑造的，也是自我适应的产物。</p>
+<p>在后工业化社会，当集体信仰和传统规范瓦解后，个体往往会转向自我实现的路径。</p>
+<p>这种路径在我们这一代人中体现为一种重新定义责任的尝试：我们不再全盘接受外部强加的期待，而是选择哪些责任值得承担，哪些可以放下。比如放弃婚姻和生育的压力，转而专注于兴趣和个人成长；减少对宏大目标的执念，把注意力放在当下的内心平静。这种选择不是彻底抛弃责任，而是将其转化为一种主动的筛选过程，简单说就是人人都怕做冤种。</p>
+<p>「差异化自我实现叙事」提供了具体的方向。我们可以通过精神世界的构建 —— 比如哲学性的思考、艺术的审美体验、向内的本我探索和向外的世界体验 —— 来寻找独属于自己的价值。或者，也可以通过创造性的实践活动，比如发展某项技能或兴趣，哪怕不专业，也能从中获得精进和满足感。</p>
+<p>付航用普通人的独特性对抗迷茫，强调 “我不厉害，但我独特，我对自己满意” ，这种叙事让许多人找到了共鸣。</p>
+<p>该策略的核心在于价值不再依赖社会认可或物质成就，而是源于个体内在的差异性和生命体验。它让「去责任化」从单纯的批判，变成了一种积极的重新定位。</p>
+<h2 id="去责任化存在风险">去责任化存在风险</h2>
+<p>但这种看似积极的策略并非没有门槛。精神构建和创造实践需要一定的经济基础、心理包容度以及探索自我的空间。这些条件对许多人来说是奢侈的，尤其是那些在高压环境中长大、缺乏家庭和友人支持的伙伴。</p>
+<p>如果青少年时期没有机会发现自己喜欢什么、擅长什么，成年后即使有条件，也可能已经变成一个“空壳人”，难以填补内心的空洞。</p>
+<p>这种困境让「去责任化」在一些人身上停留在现象层面，他们无法迈向策略化的转变，反而可能滑向更消极的方向。</p>
+<p>比如网络上的 “仇恨共同体” 就揭示了一种可能的负面路径。从 “爱” 转向 “黑”，无限且不间断的反转造势下，一个个高参与度、曝光度的事件持续被娱乐化被消费，当网络环境被情绪控制，社会倾向于用仇恨和极端情绪构建新叙事，导致传播本身越来越缺乏实质价值且具有负面影响。</p>
+<p>当丁真、詹黑成为流量主力，这种 “仇恨共同体” 看似提供了归属，却建立在破坏和偏激之上，无法带来持久的价值，反而加剧了社会的不信任感和脆弱性。</p>
+<p>此外，「去责任化」在短期内让人感到轻松，摆脱了传统期待的束缚，可以专注于当下。但长期看，回避责任可能让个体失去成长的机会，使社会面临生育率下降、养老危机等系统性挑战。</p>
+<p>日本在增长率急转直下后，年轻人无法从努力中获益，压力却未减轻，最终选择与社会脱钩，非暴力不合作。这种自发的去责任化比外界预想的更决绝，提示我们，如果社会不主动松绑，年轻人会以自己的方式完成这一步。</p>
+<p>那么如何让「去责任化」从负面现象平稳走上策略性缓解群体压力的道路？社会层面的调整或许能缓解部分压力，比如改善经济条件、减少焦虑渲染、减轻课业负担、鼓励文娱产业作为减压阀，让娱乐不再被视为 “玩物丧志”，而是正当的心理调节手段。</p>
+<h2 id="结语">结语</h2>
+<p>但更关键的在于个体本身。如何将「去责任化」作为减负方式，不妨先卸下外部强加的担子，比如时常清理粗暴施加在自身的外部压力，甚至在极端情况下切割有毒的关系。只有当内心不再被焦虑和压力占满，我们才能恢复活力，去探索属于自己的责任坐标。这种过程不是一蹴而就的，而是渐进的，需要时间，也需要社会给予更多的理解和空间。</p>
+<p>当旧的规则不再适用，新的规则尚未成型时，年轻人的摇摆不是道德缺陷，而是时代交替的缩影。它既是挑战，也是契机 —— 让着我们在思考中成长。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>未来会利用起来 <strong>Telegram Channel</strong>，并将其作为内容源，借助 <a href="https://github.com/ccbikai/BroadcastChannel?tab=readme-ov-file">BroadcastChannel</a> 搭建一个微博客 —— 「<a href="https://daily.1plus.me/">daily.1plus.me</a>」，不定时的分享一些有意思的内容。</p>
+<h4 id="文章">文章</h4>
+<ul>
+<li>
+<p><a href="https://herman.bearblog.dev/active-rest/">Active rest</a></p>
+</li>
+<li>
+<p><a href="https://mp.weixin.qq.com/s/tv_eN8-bxH_PkqCFu3P-7g">我所见过的梁文锋</a></p>
+</li>
+<li>
+<p><a href="https://mp.weixin.qq.com/s/D1NisnNnR5FtRVT6dtwKRw">在深圳做「AI 耳机」这一年，我看到的 10 个行业真相</a></p>
+</li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1PqQVY2EVb/?spm_id_from=333.337.search-card.all.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">改造我自己的学习</a></p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1Ud9JYyE4Z/?spm_id_from=333.337.search-card.all.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">寻姨启事</a></p>
+</li>
+</ul>
+<h4 id="剧集">剧集</h4>
+<ul>
+<li>哪里来的时间看剧，<a href="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/chiikawa-1.jpg">朋友</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>听说你也染上 AI 了</title>
+      <link>https://1plus.me/zh/2025/03/07/ai-dilemma/</link>
+      <pubDate>Fri, 07 Mar 2025 08:00:00 +0800</pubDate>
+      
+      <guid>https://1plus.me/zh/2025/03/07/ai-dilemma/</guid>
+      <description>回留 前言 本篇是对近期高强度使用 AI 后的记录和思考。 今年春节到现在，GPT 和不太稳定的 DeepSeek 成了我的浏览器常驻网页。LLMs 与小红书、谷歌的交叉应用</description>
+      <content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/%e5%9b%9e%e7%95%99.flac" type="audio/mpeg">
+    </audio>
+    <i><figcaption>回留</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p>本篇是对近期高强度使用 AI 后的记录和思考。</p>
+<blockquote>
+<p>今年春节到现在，GPT 和不太稳定的 DeepSeek 成了我的浏览器常驻网页。LLMs 与小红书、谷歌的交叉应用，是独属于九零后的十万个为什么。</p>
+</blockquote>
+<blockquote>
+<p>在 「DeepSeek 推荐」 开始碾压所有明星代言的场景中，年轻消费者们并不会真正信任 AI 会是什么旅行大师、攻略专家，只是低成本地参与了一次有趣潮流。我坐在这趟列车上，票都没买就被挤进来了，前一分钟还在庆幸占了便宜，下一秒就开始焦虑，AI 参与决策的进度，比想象中快太多了。</p>
+</blockquote>
+<h2 id="用得上比什么都重要">「用得上」比什么都重要</h2>
+<p>从 2022 年底 ChatGPT 3.5 出现在大众视野开始，直至今天，LLMs 在终端市场的革命已经有三个年头了，早期通过封装 OpenAI API 搭建的二次开发产品，例如微信小程序上的聊天机器人早已经批量下架。随之而来的人工智能雪球在互联网资本的推广下越滚越大。</p>
+<p>如果将现阶段的结果与早期移动互联网行业革命去对比，现在或许是2013年左右的情景，C 端源源不断出现爆款应用的同时，企业也在探索以 AI 为基础的新质数字化转型模式。</p>
+<p>探索生活化场景，培养用户习惯，将大模型植入软硬件这几件事在未来，将会变的比推进技术迭代更为重要。</p>
+<h2 id="未来没来">未来没来</h2>
+<p>如何去概括这三年AI的发展？割裂。在 Deepseek 出现在主流视野之前，AI 不是未来，因为使用者的体感明显出现了背离，在猎奇尝鲜之后仍然能留下来高频利用它辅助工作甚至能够借助其变现的，少之又少。</p>
+<p>最终使用者只剩下学生群体和一二线城市职场打工人，即便强如 DeepSeek，也逃不出这个结局 —— 大多数的我们在空闲时间不想，也不需要和一个没有实体存在的数据中心闲聊。</p>
+<p>老蒋在去年夏天进行了一次调研，在与大约 20 名非创业者且非 AI 从业者但是高频使用 AI 的普通人聊完之后发现，几乎这些受访者都正向肯定了 AI 的价值，他们都认为 AI 工具能够提高生产效率。</p>
+<p>但是真正能够用 AI 稳定每月赚到 5000 元以上的两个受访者还是靠教人怎么用 AI 变现赚到的钱。其他的受访者，他们并不是用 AI 赚不到钱，能赚到，但是无法作为长期工作。这其中有用 AI 帮人生成头像赚钱的，用 AI 在淘宝上代写文案的，文案代写市场在淘宝上已经被 AI 重构了，基本上已经没有纯粹人写的了，都是 AI 写完了以后人工修改的，号称专业主持配音的同理，他们都遇到了类似的问题，最开始他们有了这个想法，紧接着所有人都看到了商机，随着时间推移，信息差被抹平。</p>
+<p>他们的方法论是没有门槛的，随随便便就能被逆向破解，普通大学生花两个晚上就学会了，门槛低且需求很难做出差异化。所以在之后的几个月的时间里，这种模式就烂掉了，从每单几十块钱变成了每单几块钱。当然赚钱的形式不止于此，普遍来看，这就是很多利用 AI 做低成本创业投资者面临的窘境。</p>
+<h2 id="kpi--kpai">Kpi = Kpai</h2>
+<p>把视线移向职场生态，事情会愈发奇怪。</p>
+<p>一些积极拥抱新事物的老板们，早已开始依赖上 AI 的反馈，在工作中已经出现这样的对话：“这个内容你问过 DeepSeek 没有，看看有没有什么我们之前想的不全面的地方？”</p>
+<p>又或者 “ AI 有没有提升工作效率我不知道，但是老板已经开始用 GPT 给方案打分，如果 GPT 打分没有超过 70 分，他就先不具体看了，如果超过 70 分，他再根据 GPT 给出的结果看方案细节 ”。</p>
+<p>很快，AI 帮人完成工作的愿望没实现，但是 AI 管理人可能已经先实现了。管理者对 AI 都是赞不绝口的，为什么？很简单，AI 能够帮助节省人力成本。</p>
+<p>比如公司需要做国外业务，之前需要专门的翻译，现在不需要了，让一个助理顺手用 AI 做就好。之前需要请 10 个设计师，现在直接开掉 8 个都没问题，因为目前比较通行的做法是先用 AIGC 工具出图，然后把合适的素材抠出来进行二次创作，越来越多的设计公司会在简历初筛阶段就卡掉没有 AIGC 技能的求职者。</p>
+<p>打工人被迫卷了起来，可能你用 AI 用的比较 6，一不小心卷死了自己旁边工位的某个兄弟。</p>
+<p>职场中的很多事情，可能没我们想得那么重要，是人来做还是AI来做，是人来评还是 AI 来评，其实都无所谓，最起码我们要培养提问的习惯，做出这一步，就会有更多的机会和可能性拥抱自身。</p>
+<h2 id="是伪需求吗">是伪需求吗</h2>
+<p>人工智能，尤其是 LLMs 面临的困境是它虽然提升了效率，但是仍然称不上伟大。</p>
+<p>在2025年初这个时间点上，LLMs 并没有像移动互联网一样走进千家万户，真正改变我们的生活方式，并且让很多人获利，这是为什么？</p>
+<p>LLMs 的应用在持续深化供给侧结构性改革的道路中似乎还存在着天然的劣势，它难以破解消费供给的结构性矛盾，至少在目前做不到以高质量供给实现引领需求、创造需求的目的。</p>
+<p>汽车和公路的普及把旅游业规模提升了十倍不止，而且也扩大了城市的规模上限。冷藏技术不是多卖一些冰箱的逻辑，而是让肉类的长时间存储和远距离运输成为了可能，大大增加了国民的平均蛋白质摄入量。多品类电器产品的普及也不是说多卖一些家电这么简单，而是让家庭中女性角色的繁重劳动得以缓解，间接刺激了女性走上职场，同时也解放了家庭娱乐的时间。</p>
+<p>包括我们看10年前的移动互联网革命也是一样，非常多新的需求，例如说玩手游的需求，线上购物的需求，其强大的传播效能击垮了实体也滋润了实体，再比如说之前自己做饭的人现在点外卖了，之前坐公交的人现在骑共享单车了。这些需求确实推动了社会经济的发展。</p>
+<p>那么需求又是被如何被创造出来的呢？有两种最显而易见的方式：一是通过生产效率的提升，让成本大大降低，从而让之前买不起某种产品或者服务的人现在能够用得起；二是创造出了新的更好的产品和服务，整了一些新活儿，带动了新的需求。</p>
+<p>那么 AI 能够提升生产效率已经是铁打的事实，也就是通过生产效率提升让成本降低，间接促使更多的人用得起某种服务。为什么我还要质疑 AI 对需求的刺激呢？</p>
+<p>这是因为目前最流行的的 LLMs 的使用场景是严重偏科的。这次的 AI 浪潮，其核心功能是产出各种各样的AIGC —— 文字、图像、音乐。但是内容产业的问题是结构性的产能过剩，是一个没有需求却硬要创造需求的产业。</p>
+<p>我们生活在移动互联网之下，一个供大于求的时代，网络上单日产生的垃圾信息或者说中低质量的信息，一个人看一辈子恐怕也看不完。</p>
+<p>不可否认的是，当下的市场仍旧且将会长期缺乏优质内容，但这是消费升级的逻辑。就是像影视飓风、极速拍档、狂阿弥这样80分以上的自媒体内容依然还是有需求空间的。像《漫长的季节》、《黑神话》这样的顶级内容是严重匮乏的，受众是嗷嗷待哺的。</p>
+<p>但是 AI 最擅长的是批量化的生产六七十分的内容，恰好六七十分的内容是产能过剩的部分。更优质的、具备差异化的东西，AI 能帮上的忙比较有限。</p>
+<p>目前，我只会拿 AI 做一些边角料的活，比如概括文字内容，写文案，修图，做内容包装，做数字人，我不知道如何把 AI 变成「核心生产工具」。</p>
+<p>很简单，六七十分的东西对于做 IP 来说是不够用的。</p>
+<p>所以这就造成了 AI 的尴尬处境：空有效率提升，但是效率在空转。写周报、做海报快了十倍，营销推广的效率也变高了，但是除了老板和高阶的自由职业者，打工人在目前很难获得什么。</p>
+<h2 id="heading"></h2>
+<p>而当我们把视野放的足够宽，把 AI 提升效率的重点从内容产出转向更广泛的工业和农业生产，利用基于判别式模型的非生成式人工智能帮助我们做量化分析、图像识别、自动驾驶，辅助药物研发和气象预测，或许能够刺激更强烈的市场需求，杜绝纯粹的内卷，实现有效发展。</p>
+<p>我们总是高估在一年或者两年中能够做到的，而低估五年或十年中能够做到的。</p>
+<p>也许就在不久的将来，AI 可以应了这句话：你希望的样子，我都有。</p>
+<hr>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>未来会利用起来 <strong>Telegram Channel</strong>，并将其作为内容源，借助 <a href="https://github.com/ccbikai/BroadcastChannel?tab=readme-ov-file">BroadcastChannel</a> 搭建一个微博客 —— 「<a href="https://daily.1plus.me/">daily.1plus.me</a>」，不定时的分享一些有意思的内容。</p>
+<h4 id="文章">文章</h4>
+<ul>
+<li>
+<p><a href="https://mp.weixin.qq.com/s/tv_eN8-bxH_PkqCFu3P-7g">我所见过的梁文锋</a></p>
+</li>
+<li>
+<p><a href="https://mp.weixin.qq.com/s/D1NisnNnR5FtRVT6dtwKRw">在深圳做「AI 耳机」这一年，我看到的 10 个行业真相</a></p>
+</li>
+<li>
+<p><a href="https://mp.weixin.qq.com/s/IwlZpKZtEgTDcJxvrSSa5g">东方破晓：2024，中国 AI 的跃迁之年｜赛博月刊 202412</a></p>
+</li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li>
+<p><a href="https://www.bilibili.com/video/BV16Z9RYcEMr/?spm_id_from=333.1007.0.0&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">女孩子哭了该怎么哄【自驾游美西VLOG 16】</a></p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1nwffYXE4H/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">雪？重庆人玩得明白吗？仙女山露营【BB Time第463期】</a></p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1mr9CYGEn8/?spm_id_from=333.337.search-card.all.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">分享下我的歌单，顺便聊聊音乐</a></p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1j798YHETF/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">转码？你可省省吧&hellip;</a></p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1Yd9AY6EqC/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">职场3P法则</a></p>
+</li>
+</ul>
+<h4 id="剧集">剧集</h4>
+<ul>
+<li>哪里来的时间看剧，<a href="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/chiikawa-1.jpg">朋友</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>喵了个咪的 | flow</title>
+      <link>https://1plus.me/zh/2025/03/05/dog-my-cats/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 +0800</pubDate>
+      
+      <guid>https://1plus.me/zh/2025/03/05/dog-my-cats/</guid>
+      <description>《春風吹》 前言 6.5/10⭐ —— 《猫猫的奇幻漂流》 本篇是对 2025-03-02 观影后的的记录与思考。 随着猫咪再一次巧合性的落水，去往它梦里的山，影片中动物们细</description>
+      <content:encoded><![CDATA[<figure >
+    <audio controls preload="metadata">
+        
+        <source src="/audios/%e6%98%a5%e9%a2%a8%e5%90%b9.m4a" type="audio/mpeg">
+    </audio>
+    <i><figcaption>《春風吹》</figcaption></i>
+</figure>
+<h2 id="前言">前言</h2>
+<p><img alt="film-flow-02" src="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/film-flow-02.jpg"></p>
+<p>6.5/10⭐ —— <strong>《猫猫的奇幻漂流》</strong></p>
+<p>本篇是对 <code>2025-03-02</code> 观影后的的记录与思考。</p>
+<p>随着猫咪再一次巧合性的落水，去往它梦里的山，影片中动物们细如丝线的友谊关系彻底被刻意打破，蛇鹫的消逝，猴群的聚集，摇摇欲坠的船，不明所以的危机和过度拟人化的猫咪，像极了在小学语文课上看图编故事。</p>
+<h2 id="trivia">Trivia</h2>
+<ul>
+<li>
+<p>The team was very adamant in getting all of the &ldquo;voices&rdquo; to be done by real animals, so they recorded real animals for the movie. To get the capybara sound, the sound engineer had to travel to a zoo and tickle capybaras. However, the real capybara sounds did not match the personality that the capybara character would have, so instead they used a baby camel for this one.</p>
+</li>
+<li>
+<p>The entire movie has been created and rendered only using the free and open-source software Blender.</p>
+</li>
+<li>
+<p>Because the budget of the film was so tight, there are no deleted scenes from the film. Every scene produced is in the final cut of the movie.</p>
+</li>
+<li>
+<p>This is the third non-English animated film to win Oscars for Best Animated Feature after <em><a href="https://movie.douban.com/subject/1291561/">千与千寻 (2001)</a></em> and <em><a href="https://movie.douban.com/subject/26925611/">你想活出怎样的人生 (2023)</a></em>.</p>
+</li>
+</ul>
+<h2 id="被定义">被定义</h2>
+<blockquote>
+<p>在动物题材的电影中，<em>flow</em> 宛如一颗落在地上的星，始终以俯视着的视角望向蓝天，散发着别样的光。它以动物为主角，构建起一个充满奇幻色彩，却又蕴含深刻现实性的世界。</p>
+</blockquote>
+<p><img alt="film-flow-08" src="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/film-flow-08.jpg"></p>
+<p>影片中的拉布拉多，看似只是一只普通的 “快乐小狗”，实则蕴含着丰富的人性隐喻。初登场时，它像极了那些在群体中迷失自我的个体，盲目地跟随几只品性不佳的狗狗追赶猫咪，展现出一种从众的本能。然而，深入观察便会发现，其内心深处的善良从未泯灭。当猫咪叼到鱼，它率先察觉，却因某种复杂的心理因素，选择沉默，直至同伴发声才被动呼应。在追捕猫咪的过程中，它虽在空间上距离最近，行动上却最为迟缓，这种行为背后，反映出它对群体关系的纠结与对自身善良本性的守护。当猫咪和狗狗第一次挣扎着上岸，狗狗并没有对对岸的同伴有过多留恋，因为它很清楚猫咪也会是一个好的伙伴，所以它会在第一次遇到蛇鹫之后就毫不犹豫的站在猫咪前面保护它。上了卡皮巴拉的大船之后，它对社交的极度渴望，恰似人类社会中那些害怕孤独、努力融入群体的灵魂，即便遭受诸多冷遇，依旧热情不减，“e 狗” 的表象下，是对温暖与陪伴的深切向往。</p>
+<p>狐猴的角色塑造同样耐人寻味，它是典型的 “收集癖” 形象，其满屋子的收藏，象征着人类对物质的过度追求与依赖。当洪水逼近，面对有限的承载空间与难以割舍的物品，它陷入了深深的纠结与犹豫，映射出人在面对生存危机时，对物质财富的执念与内心安全感缺失之间的矛盾。镜子中的狐猴，照映出了芸芸众生相。</p>
+<p>蛇鹫的形象则笼罩着一层神秘而深邃的哲学光环。它与拉布拉多虽都面临着同族与主角阵营的对立局面，但表现方式截然不同。拉布拉多的外向与蛇鹫的内敛，形成了鲜明的反差。蛇鹫起初因不善表达而引发猫咪的恐惧，却通过实际行动逐步建立起跨越种族的友谊，这一过程深刻地诠释了理解与信任的建立往往超越语言，依赖于真诚的行动。它反抗头领的举动，不仅是对个体正义的捍卫，更引发了关于群体规则与个体良知冲突的深刻思考。而蛇鹫结局的多种解读，无论是“驾鹤西去” 的传统意象，还是从猫咪主观视角所赋予的神圣化理解，都为影片增添了一抹神秘色彩，促使我们思考生命的终结与超越，以及个体在他人心中的永恒形象。</p>
+<p>卡皮巴拉的形象是一股清流，它那看似 “躺平摆烂” 的表象下，或许隐藏着一种高度的精神独立。加入团队后，它始终坚守自己的节奏，以一种豁达、乐观的态度面对生活，这种态度对周围伙伴产生了积极的影响。</p>
+<p>猫咪则是影片情感与思想的核心纽带。影片首尾呼应的猫咪水中倒影镜头，是一幅从孤独的个体走向温馨的 “全家福”，在经历了雕像被淹没那一刻的强烈空虚后从孤独走向群体认同，从自我封闭走向对友谊的接纳。</p>
+<h2 id="heading"></h2>
+<p><img alt="film-flow-05" src="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/film-flow-05.jpg"></p>
+<p>影片对人类中心主义的破除，通过小动物们无名无台词的设定，以及始终以猫咪视角展开的镜头语言得以实现，引导观众从动物的视角重新审视世界，反思人类在自然界中的地位与角色。影片中洪水这一意象的设置，既是对动物生存能力的考验，更是对生命意义的深度叩问。洪水对于鲸鱼生存与人类灾难之间的矛盾，引发了我们对自然规律与人类利益冲突的思考，以及对自然灾害相对性的重新认识。猫咪登高产生幻觉的情节，以及片尾彩蛋所暗示的故事不确定性，则进一步模糊了现实与幻想的边界。</p>
+<p><em>flow</em> 绝非一部简单的动物冒险电影，它以动物为载体，探讨了人性、道德、信仰、社会关系以及人与自然的关系等诸多议题。通过独特的呈现方式与细腻的角色塑造，引导我们在欣赏影片的同时，对生命的本质与意义进行深度反思，宛如一场思绪的奇幻漂流。</p>
+<h2 id="有趣的事与物">有趣的事与物</h2>
+<h3 id="输入">输入</h3>
+<p>未来会利用起来 <strong>Telegram Channel</strong>，并将其作为内容源，借助 <a href="https://github.com/ccbikai/BroadcastChannel?tab=readme-ov-file">BroadcastChannel</a> 搭建一个微博客 —— 「<a href="https://daily.1plus.me/">daily.1plus.me</a>」，不定时的分享一些有意思的内容。</p>
+<h4 id="文章">文章</h4>
+<ul>
+<li>
+<p><a href="https://walnut.hedwig.pub/i/duan-geng-xin-advice-for-a-friend-who-wants-to-start-a-blog">Advice for a friend who wants to start a blog</a></p>
+</li>
+<li>
+<p><a href="https://mp.weixin.qq.com/s/1_Tyx2kDk8o84erTBvm02A">大卫·林奇的怪异之门</a></p>
+</li>
+</ul>
+<h4 id="视频">视频</h4>
+<ul>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1QwXRYyEh3/?spm_id_from=333.1007.0.0&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">ak 科技恋综 - CES 自驾游【VLOG Vol.02】</a></p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1j798YHETF/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">转码？你可省省吧&hellip;</a></p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1Yd9AY6EqC/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=ceb86b7c0beff27d18e7e1a1a25b505d">职场3P法则</a></p>
+</li>
+</ul>
+<h4 id="剧集">剧集</h4>
+<ul>
+<li>哪里来的时间看剧，<a href="https://image-host-1313180202.cos.ap-nanjing.myqcloud.com/img/chiikawa-1.jpg">朋友</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 1plus</title>
+    <link>https://1plus.me/zh/categories/</link>
+    <description>Recent content in Categories on 1plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 22 Mar 2025 08:01:00 +0800</lastBuildDate>
+    <atom:link href="https://1plus.me/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Essays</title>
+      <link>https://1plus.me/zh/category/essays/</link>
+      <pubDate>Sat, 22 Mar 2025 08:01:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/category/essays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ideas</title>
+      <link>https://1plus.me/zh/category/ideas/</link>
+      <pubDate>Fri, 21 Mar 2025 13:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/category/ideas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://1plus.me/zh/category/tools/</link>
+      <pubDate>Wed, 12 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/category/tools/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

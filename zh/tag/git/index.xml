@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on 1plus</title>
+    <link>https://1plus.me/zh/tag/git/</link>
+    <description>Recent content in Git on 1plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 12 Mar 2025 08:00:00 +0800</lastBuildDate>
+    <atom:link href="https://1plus.me/zh/tag/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一次远程仓库提交报错</title>
+      <link>https://1plus.me/zh/2025/03/12/remote-repo-authentication/</link>
+      <pubDate>Wed, 12 Mar 2025 08:00:00 +0800</pubDate>
+      <guid>https://1plus.me/zh/2025/03/12/remote-repo-authentication/</guid>
+      <description>回留 最近计划用另一台 Surface 管理此网站的内容更新，在使用 Git 提交代码 git push 时，多次出现了以下错误信息。 fatal: unable to access &amp;#39;https://github.com/username/username.github.io.git/&amp;#39;: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0 根据提示判断可能是本地 SSL 证书</description>
+    </item>
+  </channel>
+</rss>
